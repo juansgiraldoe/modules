@@ -22,7 +22,7 @@ export class Cliente {
   constructor(nombre, ahorro){
     this.nombre = nombre;
     this.ahorro = ahorro;
-  }
+  };
   mostrarInformacion(){
     return `El cliente ${this.nombre} y tiene un ahorro de ${this.ahorro}.`;
   };
