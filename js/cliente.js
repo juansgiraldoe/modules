@@ -27,3 +27,9 @@ export class Cliente {
     return `El cliente ${this.nombre} y tiene un ahorro de ${this.ahorro}.`;
   };
 };
+
+//No requiere estar entre {} en el archivo que lo importe.
+export default function nueva() {
+  console.log('Este es el export default.');
+}
+//Solo puede haber uno, y se puede llamar de otra forma.
